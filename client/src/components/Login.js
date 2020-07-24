@@ -53,7 +53,7 @@ const Login = () => {
           value={formValues.username}
           onChange={handleInputChange}
         />
-        <label htmlFor='password'>Username:&nbsp;</label>
+        <label htmlFor='password'>Password:&nbsp;</label>
         <input 
           type='password'
           id='password'
