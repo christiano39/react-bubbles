@@ -65,6 +65,7 @@ const ColorList = ({ colors, updateColors }) => {
       .post('/api/colors', newColor)
       .then(res => {
         updateColors(res.data);
+        setPostFormValues(initialPostFormValues);
       })
       .catch(err => {
         console.log(err);
